@@ -71,6 +71,8 @@ function draw()
 
         current_song = 1
 
+        document.getElementById("song").innerHTML = "Song 1 is playing.";
+
         song1.play();
         song1.setVolume(1);
         song1.rate(1); 
@@ -82,6 +84,8 @@ function draw()
     {   
         circle(leftWristX, leftWristY, 20); 
         current_song = 2
+
+        document.getElementById("song").innerHTML = "Song 2 is playing.";
 
         song2.play();
         song2.setVolume(1);
